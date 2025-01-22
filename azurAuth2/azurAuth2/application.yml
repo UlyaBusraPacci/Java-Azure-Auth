@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           azure:
-            client-id: 457903ba-ad4e-4a53-9f39-715449ec9197
-            client-secret: nz48Q~ljX~1T~YYFP8Oz3.IQ0VYTgqBlCOOyNar5
+            client-id: *
+            client-secret: *
             scope: openid, profile, email, User.Read
             authorization-grant-type: authorization_code
             redirect-uri: "http://localhost:8080/login/oauth2/code/azure"
